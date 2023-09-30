@@ -10,7 +10,7 @@ const route = require('./routes');
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Middleware
-              app.use(
+app.use(
     express.urlencoded({
         extended: true,
     }),
