@@ -1,0 +1,16 @@
+- git config --global user.name "username"
+- git config --global user.email "email"
+=> chỉ config ban đầu, những lần sau sử dụng k cần
+--------------------------------------------------------------------
+- git clone <đường dẫn thùng chứa server>
+- git status: Kiểm tra đang ở phân vùng nào
+	+ màu đỏ: đang ở phân vùng Working copy
+	+ màu xanh lá: đang ở phân vùng Staging Area
+- git add . (chuyển code từ vùng Working copy => Staging Area)
+- git commit -m "ghi chu" (chuyển code từ vùng Staging Area => Local Repo)
+- git push origin <branch> (đẩy code lên server)
+- git branch: kiểm tra trạng thái nhánh
+- git branch <ten branch>: tạo branch
+- git checkout <ten branch>: nhảy/ chuyển branch
+- git pull: kéo code từ server về client
+- git merge <ten branch>: trộn code lại
